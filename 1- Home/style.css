@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #21B4E4;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00AEEF;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.shapes-img {
+  width: 700px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.text-content {
+  position: relative;
+  z-index: 2;
+  margin-left: 50px;
+}
+
+.text-content h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text-content .highlight {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.doctor-container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.doctor-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.app-text {
+  margin-top: 10px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.bottom-section {
+  text-align: center;
+  margin-top: 40px;
+  background: linear-gradient(to right, #00AEEF, #73C1E6);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.bottom-section p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  background-color: white;
+  color: #00AEEF;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.get-started-btn:hover {
+  background-color: #00AEEF;
+  color: white;
+}
+
+.get-started-btn a {
+  text-decoration: none;
+  color: #00AEEF;
+  transition: color 0.3s ease;
+}
+
+.get-started-btn:hover a {
+  color: white;
+}
+
+.bottom-section::before {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .top-section {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+  }
+
+  .text-content {
+      margin-left: 0;
+  }
+
+  .doctor-container {
+      margin-top: 20px;
+  }
+}

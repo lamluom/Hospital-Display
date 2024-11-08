@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 24px;
+  color: #000000;
+}
+.doctor-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctor-info .details {
+  max-width: 60%;
+}
+.doctor-info .details h2 {
+  font-size: 28px;
+  color: #00aaff;
+  margin: 0;
+}
+.doctor-info .details h3 {
+  font-size: 18px;
+  color: #a0a0a0;
+  margin: 5px 0;
+}
+.doctor-info .details p {
+  font-size: 16px;
+  color: #00aaff;
+}
+.doctor-info .details .about {
+  font-size: 14px;
+  color: #00aaff;
+  margin-top: 10px;
+}
+.doctor-info .image {
+  width: 30%;
+  text-align: center;
+}
+.doctor-info .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.schedule {
+  margin-top: 20px;
+}
+.schedule h3 {
+  font-size: 20px;
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+.schedule .days {
+  display: flex;
+  justify-content: space-between;
+}
+.schedule .days .day {
+  width: 30%;
+  background-color: #00aaff;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.schedule .days .day.disabled {
+  background-color: #a0d8ff;
+}
+.schedule .times {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.schedule .times .time {
+  width: 48%;
+  background-color: #ffffff;
+  color: #00aaff;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #00aaff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+
+
+}
+
+.schedule .times .time.disabled {
+  background-color: #f5f5f5;
+  color: #a0a0a0;
+  border: 1px solid #a0a0a0;
+}
+.book-appointment {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+}
+.book-appointment button {
+  background-color: #00aaff;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50%;
+  
+}
+.book-appointment button:hover {
+  background-color: #0088cc;
+}
+.book-appointment.message{
+  width: 50px;
+}

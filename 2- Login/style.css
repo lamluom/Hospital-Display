@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('Background-LoginPage.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 100svw;
+  }
+  
+  .login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+    border-radius: 50px;
+  }
+  
+.login-form {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+  .login-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .login-form .links {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  
+  .login-form .links a {
+    color: #3F0FFE;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-form .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-form button:hover {
+    background-color: #444;
+  }
+
+  .login-form #Sign-In{
+    width: 150px;
+    border-radius: 50px;
+  }
+  
+  .signup {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup a {
+    color: #3F0FFE;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  
